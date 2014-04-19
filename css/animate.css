@@ -1,0 +1,25 @@
+@-webkit-keyframes spin {
+  60% {
+    background: yellow;
+  }
+  100% {
+    -webkit-transform: rotate(190deg) translate(-150px, -10px);
+    background: orange;
+  }
+}
+
+@-webkit-keyframes shadow {
+  100% {
+    background:         linear-gradient(top, #ddf 40%, #000 100%);
+    background: -webkit-linear-gradient(top, #555 90%, #000 100%);
+    background:    -moz-linear-gradient(top, #ddf 40%, #aaa 100%);
+    background:     -ms-linear-gradient(top, #ddf 40%, #aaa 100%);
+    background:      -o-linear-gradient(top, #ddf 40%, #aaa 100%);
+  }
+}
+
+@-webkit-keyframes shine {
+  100% {
+    -webkit-transform: translate(2px, 200px);
+  }
+}
